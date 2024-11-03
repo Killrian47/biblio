@@ -18,4 +18,6 @@ public class Manwha {
   private String artist;
   private String genre;
   private String summary;
+  private int chapters;
+  private int chaptersRead;
 }

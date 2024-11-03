@@ -40,6 +40,9 @@ public class ManwhaService {
       manwhaToUpdate.setAuthor(updatedManwha.getAuthor());
       manwhaToUpdate.setArtist(updatedManwha.getArtist());
       manwhaToUpdate.setGenre(updatedManwha.getGenre());
+      manwhaToUpdate.setSummary(updatedManwha.getSummary());
+      manwhaToUpdate.setChapters(updatedManwha.getChapters());
+      manwhaToUpdate.setChaptersRead(updatedManwha.getChaptersRead());
       return manwhaRepository.save(manwhaToUpdate);
     } else {
       throw new RuntimeException("Manwha not found");
