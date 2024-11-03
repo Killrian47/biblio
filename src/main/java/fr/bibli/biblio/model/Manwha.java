@@ -17,4 +17,5 @@ public class Manwha {
   private String author;
   private String artist;
   private String genre;
+  private String summary;
 }
