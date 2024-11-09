@@ -1,5 +1,6 @@
 package fr.bibli.biblio.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,6 +18,7 @@ public class Manwha {
   private String author;
   private String artist;
   private String genre;
+  @Column(length = 10000)
   private String summary;
   private int chapters;
   private int chaptersRead;
