@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.bibli.biblio.model.Manwha;
-import fr.bibli.biblio.model.User;
 import fr.bibli.biblio.repository.ManwhaRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
